@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResponderAI - Native Mode</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+    <style>
+        :root {
+          --bg-gradient: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+          --glass-bg: rgba(30, 41, 59, 0.7);
+          --glass-border: rgba(255, 255, 255, 0.1);
+          --text-main: #f8fafc;
+          --text-muted: #94a3b8;
+          --accent: #3b82f6; --accent-hover: #60a5fa;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Outfit', sans-serif; background: var(--bg-gradient); color: var(--text-main); min-height: 100vh; overflow: hidden; }
+        .glass-panel { background: var(--glass-bg); backdrop-filter: blur(12px); border: 1px solid var(--glass-border); border-radius: 16px; padding: 24px; box-shadow: 0 8px 32px 0 rgba(0,0,0,0.3); }
+        .app-container { display: grid; grid-template-columns: 350px 1fr; grid-template-rows: 80px 1fr; grid-template-areas: "header header" "sidebar main"; height: 100vh; gap: 20px; padding: 20px; }
+        .app-header { grid-area: header; display: flex; align-items: center; justify-content: space-between; background: rgba(15,23,42,0.8); border-radius: 16px; padding: 0 30px; border: 1px solid var(--glass-border); }
+        .app-header h1 { font-size: 1.5rem; background: linear-gradient(to right,#60a5fa,#a78bfa); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .app-sidebar { grid-area: sidebar; display: flex; flex-direction: column; gap: 20px; overflow-y: auto; }
+        .app-main { grid-area: main; border-radius: 16px; overflow: hidden; border: 1px solid var(--glass-border); }
+        input[type="text"] { width: 100%; padding: 12px 16px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.2); background: rgba(0,0,0,0.2); color: white; font-family: inherit; font-size: 1rem; outline: none; margin-top: 15px; }
+        button { background: var(--accent); color: white; border: none; padding: 12px 24px; border-radius: 8px; font-family: inherit; font-weight: 600; cursor: pointer; margin-top: 10px; width: 100%; }
+        .badge { padding: 4px 10px; border-radius: 20px; font-size: 0.8rem; font-weight: 600; }
+        .badge-Medical { background: rgba(239,68,68,0.2); color: #fca5a5; border: 1px solid rgba(239,68,68,0.4); }
+        .badge-Fire { background: rgba(249,115,22,0.2); color: #fdba74; border: 1px solid rgba(249,115,22,0.4); }
+        .badge-Crime { background: rgba(139,92,246,0.2); color: #c4b5fd; border: 1px solid rgba(139,92,246,0.4); }
+        .badge-Traffic { background: rgba(234,179,8,0.2); color: #fde047; border: 1px solid rgba(234,179,8,0.4); }
+        .log-item { padding: 12px; border-bottom: 1px solid rgba(255,255,255,0.05); font-size: 0.9rem; }
+        .stat-box { display: flex; justify-content: space-between; }
+        .stat-value { font-size: 2rem; font-weight: 700; color: var(--accent-hover); }
+        .leaflet-container { height: 100%; width: 100%; background: #ddd; border-radius: 16px; }
+        .custom-icon { border-radius: 50%; border: 2px solid white; box-shadow: 0 0 5px rgba(0,0,0,0.5); transition: transform 0.2s; }
+    </style>
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <h1>ResponderAI</h1> <div>Live Native UI</div>
+        </header>
+        <aside class="app-sidebar">
+            <div class="glass-panel">
+                <h3>Report Emergency</h3>
+                <input type="text" id="emergencyInput" placeholder="E.g. Large fire at main street...">
+                <button onclick="submitEmergency()">Deploy AI</button>
+            </div>
+            <div class="glass-panel stat-box">
+                <div><h3 style="color:var(--text-muted);font-size:0.9rem">Active</h3><div class="stat-value" id="activeCases">0</div></div>
+                <div><h3 style="color:var(--text-muted);font-size:0.9rem">Units</h3><div class="stat-value" style="color:#4ade80" id="availUnits">0</div></div>
+            </div>
+            <div class="glass-panel" style="flex-grow:1;display:flex;flex-direction:column;overflow:hidden">
+                <h3 style="margin-bottom:10px">Live Stream</h3>
+                <div id="logsContainer" style="overflow-y:auto;flex-grow:1"></div>
+            </div>
+        </aside>
+        <main class="app-main"><div id="map" style="height:100%;width:100%;"></div></main>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+        const map = L.map('map').setView([40.7580, -73.9855], 12);
+        // Use OSM tiles for highly clear real-world street names
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; OpenStreetMap contributors'
+        }).addTo(map);
+        
+        // Sync simulation strictly around user's location immediately on load
+        if ("geolocation" in navigator) {
+            navigator.geolocation.getCurrentPosition(async (position) => {
+                const lat = position.coords.latitude;
+                const lng = position.coords.longitude;
+                map.setView([lat, lng], 13);
+                map.flyTo([lat, lng], 14, { duration: 2 });
+                await fetch('/sync-location', {
+                    method: 'POST', headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({lat, lng})
+                });
+                fetchData(); 
+            });
+        }
+        
+        let vehicleMarkers = {};
+        let incidentMarkers = {};
+        let pathPolylines = {};
+        let animations = {}; // Driving simulation tracker
+        
+        // Bulletproof SetInterval animation loop instead of requestAnimationFrame
+        setInterval(() => {
+            const time = performance.now();
+            for (let vid in animations) {
+                let anim = animations[vid];
+                let progress = (time - anim.startTime) / anim.duration;
+                if (progress >= 1) {
+                    if(!anim.resolved) {
+                        anim.resolved = true;
+                        resolveCase(anim.incidentId);
+                    }
+                    delete animations[vid];
+                    continue;
+                }
+                
+                let totalPoints = anim.points.length;
+                let pIndex = progress * (totalPoints - 1);
+                let idx = Math.floor(pIndex);
+                let nextIdx = Math.min(idx + 1, totalPoints - 1);
+                let remainder = pIndex - idx;
+                
+                let p1 = anim.points[idx];
+                let p2 = anim.points[nextIdx];
+                
+                let curLat = p1[0] + (p2[0] - p1[0]) * remainder;
+                let curLng = p1[1] + (p2[1] - p1[1]) * remainder;
+                
+                if (vehicleMarkers[vid]) {
+                    vehicleMarkers[vid].setLatLng([curLat, curLng]);
+                }
+            }
+        }, 50);
+
+        function updateMap(data) {
+            // Update Vehicles
+            data.vehicles.forEach(v => {
+                let color = v.status === 'Available' ? '#22c55e' : v.status === 'Dispatched' ? '#ef4444' : 'gray';
+                let icon = L.divIcon({ className: 'custom-icon', html: `<div style="background-color:${color};width:16px;height:16px;border-radius:50%"></div>`, iconSize:[16,16], iconAnchor:[8,8] });
+                
+                if (vehicleMarkers[v.id]) {
+                    // Only hard-update position if not animating
+                    if(!animations[v.id] && v.status === 'Available') {
+                        vehicleMarkers[v.id].setLatLng([v.lat, v.lng]);
+                    }
+                    vehicleMarkers[v.id].setIcon(icon);
+                    vehicleMarkers[v.id].getPopup().setContent(`<b>ID: ${v.id} - ${v.vehicle_type}</b><br>${v.status}`);
+                } else {
+                    vehicleMarkers[v.id] = L.marker([v.lat, v.lng], {icon}).bindPopup(`<b>ID: ${v.id} - ${v.vehicle_type}</b><br>${v.status}`).addTo(map);
+                }
+                
+                // Track into driving simulation
+                if (v.status === 'Dispatched' && v.current_case_id && !animations[v.id]) {
+                    let incident = data.active_cases_list.find(c => c.case_id === v.current_case_id);
+                    if (incident && incident.route) {
+                        animations[v.id] = {
+                            startTime: performance.now(),
+                            duration: 25000, // Reduced speed to 25 seconds for realistic driving
+                            points: incident.route,
+                            incidentId: v.current_case_id,
+                            resolved: false
+                        };
+                    }
+                }
+            });
+
+            // Keep track of active IDs to prune stale ones
+            let currentIncidentIds = new Set();
+
+            data.active_cases_list.forEach(incident => {
+                if(!incident.lat) return;
+                currentIncidentIds.add(incident.case_id);
+                
+                if (!incidentMarkers[incident.case_id]) {
+                    let popupContent = `
+                        <b>${incident.category||'Incident'}</b>
+                        <p style="margin:5px 0">${incident.text}</p>
+                        <button style="padding:4px 8px;font-size:0.8rem;width:100%" onclick="resolveCase('${incident.case_id}')">Resolve & Clear</button>
+                    `;
+                    incidentMarkers[incident.case_id] = L.marker([incident.lat, incident.lng])
+                        .bindPopup(popupContent)
+                        .addTo(map);
+                }
+
+                // ONLY DRAW PATH if it is a manual user incident, NOT background streams!
+                if (incident.route && !pathPolylines[incident.case_id] && incident.case_id.includes("MANUAL_")) {
+                     pathPolylines[incident.case_id] = L.polyline(incident.route, {color:'#3b82f6', weight:5, dashArray:'10,10'}).addTo(map);
+                }
+            });
+
+            // Remove resolved/stale incidents and paths
+            for(let id in incidentMarkers) {
+                if(!currentIncidentIds.has(id)) {
+                    map.removeLayer(incidentMarkers[id]);
+                    delete incidentMarkers[id];
+                    if(pathPolylines[id]){
+                        map.removeLayer(pathPolylines[id]);
+                        delete pathPolylines[id];
+                    }
+                }
+            }
+        }
+
+        async function resolveCase(case_id) {
+            await fetch(`/resolve?case_id=${case_id}`, {method: 'POST'});
+            fetchData();
+            map.closePopup();
+        }
+
+        async function submitEmergency() {
+            const text = document.getElementById("emergencyInput").value;
+            if(!text) return;
+
+            document.getElementById("emergencyInput").placeholder = "Fetching GPS Location...";
+            
+            if ("geolocation" in navigator) {
+                navigator.geolocation.getCurrentPosition(
+                    async (position) => {
+                        await processEmergency(text, position.coords.latitude, position.coords.longitude);
+                    },
+                    async (error) => {
+                        console.warn("Geolocation failing/denied. Using mock location.", error);
+                        const lat = 40.7000 + Math.random() * 0.1, lng = -74.0500 + Math.random() * 0.15;
+                        await processEmergency(text, lat, lng);
+                    },
+                    { enableHighAccuracy: true, timeout: 5000 }
+                );
+            } else {
+                const lat = 40.7000 + Math.random() * 0.1, lng = -74.0500 + Math.random() * 0.15;
+                await processEmergency(text, lat, lng);
+            }
+        }
+
+        async function processEmergency(text, lat, lng) {
+            const res = await fetch('/classify-emergency', {
+                method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({text, lat, lng})
+            });
+            const cls = await res.json();
+            await fetch(`/dispatch?case_id=${cls.case_id}&lat=${lat}&lng=${lng}&category=${cls.category}`, {method:'POST'});
+            
+            document.getElementById("emergencyInput").value = '';
+            document.getElementById("emergencyInput").placeholder = "E.g. Large fire at main street...";
+            
+            // Quickly center view on user's live location seamlessly
+            map.flyTo([lat, lng], 13, { duration: 1.5 });
+            
+            fetchData();
+            alert(`Classified: ${cls.category}. Vehicle Dispatched to your LIVE location!`);
+        }
+
+        async function fetchData() {
+            const res = await fetch('/dashboard-data');
+            const data = await res.json();
+            document.getElementById("activeCases").innerText = data.active_cases;
+            document.getElementById("availUnits").innerText = data.vehicles.filter(v=>v.status==='Available').length;
+            
+            const logsBox = document.getElementById("logsContainer");
+            logsBox.innerHTML = '';
+            data.recent_logs.forEach(log => {
+                let c = log.category || 'Traffic';
+                logsBox.innerHTML += `<div class="log-item">
+                    <div style="display:flex;justify-content:space-between">
+                        <span class="badge badge-${c}">${c}</span>
+                        <span style="font-size:0.8rem;color:var(--text-muted)">${log.risk_score ? 'Risk: '+Math.round(log.risk_score) : 'Stream'}</span>
+                    </div>
+                    <p style="margin-top:6px">"${log.text || log.raw_text}"</p>
+                </div>`;
+            });
+            updateMap(data);
+        }
+        fetchData();
+        setInterval(fetchData, 5000);
+    </script>
+</body>
+</html>

@@ -1,0 +1,402 @@
+[
+  {
+    "text": "My house was broken into while I was away.",
+    "label": "Crime"
+  },
+  {
+    "text": "I need an ambulance, my wife is going into labor.",
+    "label": "Medical"
+  },
+  {
+    "text": "My house was broken into while I was away.",
+    "label": "Crime"
+  },
+  {
+    "text": "Major pileup on Route 9, multiple cars involved.",
+    "label": "Traffic"
+  },
+  {
+    "text": "There is a massive fire in the building next door!",
+    "label": "Fire"
+  },
+  {
+    "text": "There's a suspicious person looking into houses.",
+    "label": "Crime"
+  },
+  {
+    "text": "I just saw a hit and run.",
+    "label": "Traffic"
+  },
+  {
+    "text": "Two cars just crashed on the highway intersection, looks bad.",
+    "label": "Traffic"
+  },
+  {
+    "text": "My house was broken into while I was away.",
+    "label": "Crime"
+  },
+  {
+    "text": "My father is having a heart attack, he's not breathing!",
+    "label": "Medical"
+  },
+  {
+    "text": "There is a massive fire in the building next door!",
+    "label": "Fire"
+  },
+  {
+    "text": "A dumpster is on fire in the alley.",
+    "label": "Fire"
+  },
+  {
+    "text": "The kitchen caught on fire, smoke is everywhere.",
+    "label": "Fire"
+  },
+  {
+    "text": "My house was broken into while I was away.",
+    "label": "Crime"
+  },
+  {
+    "text": "My father is having a heart attack, he's not breathing!",
+    "label": "Medical"
+  },
+  {
+    "text": "My father is having a heart attack, he's not breathing!",
+    "label": "Medical"
+  },
+  {
+    "text": "I need an ambulance, my wife is going into labor.",
+    "label": "Medical"
+  },
+  {
+    "text": "I just saw a hit and run.",
+    "label": "Traffic"
+  },
+  {
+    "text": "The kitchen caught on fire, smoke is everywhere.",
+    "label": "Fire"
+  },
+  {
+    "text": "The kitchen caught on fire, smoke is everywhere.",
+    "label": "Fire"
+  },
+  {
+    "text": "The kitchen caught on fire, smoke is everywhere.",
+    "label": "Fire"
+  },
+  {
+    "text": "My house was broken into while I was away.",
+    "label": "Crime"
+  },
+  {
+    "text": "There's a suspicious person looking into houses.",
+    "label": "Crime"
+  },
+  {
+    "text": "I need an ambulance, my wife is going into labor.",
+    "label": "Medical"
+  },
+  {
+    "text": "Send help, someone collapsed on the street.",
+    "label": "Medical"
+  },
+  {
+    "text": "There's a suspicious person looking into houses.",
+    "label": "Crime"
+  },
+  {
+    "text": "There is a massive fire in the building next door!",
+    "label": "Fire"
+  },
+  {
+    "text": "I just saw a hit and run.",
+    "label": "Traffic"
+  },
+  {
+    "text": "There is a massive fire in the building next door!",
+    "label": "Fire"
+  },
+  {
+    "text": "My father is having a heart attack, he's not breathing!",
+    "label": "Medical"
+  },
+  {
+    "text": "My house was broken into while I was away.",
+    "label": "Crime"
+  },
+  {
+    "text": "There's a suspicious person looking into houses.",
+    "label": "Crime"
+  },
+  {
+    "text": "A dumpster is on fire in the alley.",
+    "label": "Fire"
+  },
+  {
+    "text": "My father is having a heart attack, he's not breathing!",
+    "label": "Medical"
+  },
+  {
+    "text": "Someone just robbed the convenience store with a gun.",
+    "label": "Crime"
+  },
+  {
+    "text": "My father is having a heart attack, he's not breathing!",
+    "label": "Medical"
+  },
+  {
+    "text": "My house was broken into while I was away.",
+    "label": "Crime"
+  },
+  {
+    "text": "A dumpster is on fire in the alley.",
+    "label": "Fire"
+  },
+  {
+    "text": "Someone just robbed the convenience store with a gun.",
+    "label": "Crime"
+  },
+  {
+    "text": "My father is having a heart attack, he's not breathing!",
+    "label": "Medical"
+  },
+  {
+    "text": "I need an ambulance, my wife is going into labor.",
+    "label": "Medical"
+  },
+  {
+    "text": "Two cars just crashed on the highway intersection, looks bad.",
+    "label": "Traffic"
+  },
+  {
+    "text": "Send help, someone collapsed on the street.",
+    "label": "Medical"
+  },
+  {
+    "text": "My father is having a heart attack, he's not breathing!",
+    "label": "Medical"
+  },
+  {
+    "text": "A dumpster is on fire in the alley.",
+    "label": "Fire"
+  },
+  {
+    "text": "A dumpster is on fire in the alley.",
+    "label": "Fire"
+  },
+  {
+    "text": "The kitchen caught on fire, smoke is everywhere.",
+    "label": "Fire"
+  },
+  {
+    "text": "The kitchen caught on fire, smoke is everywhere.",
+    "label": "Fire"
+  },
+  {
+    "text": "There's a suspicious person looking into houses.",
+    "label": "Crime"
+  },
+  {
+    "text": "My house was broken into while I was away.",
+    "label": "Crime"
+  },
+  {
+    "text": "Someone just robbed the convenience store with a gun.",
+    "label": "Crime"
+  },
+  {
+    "text": "There's a suspicious person looking into houses.",
+    "label": "Crime"
+  },
+  {
+    "text": "Send help, someone collapsed on the street.",
+    "label": "Medical"
+  },
+  {
+    "text": "Major pileup on Route 9, multiple cars involved.",
+    "label": "Traffic"
+  },
+  {
+    "text": "Two cars just crashed on the highway intersection, looks bad.",
+    "label": "Traffic"
+  },
+  {
+    "text": "I just saw a hit and run.",
+    "label": "Traffic"
+  },
+  {
+    "text": "Send help, someone collapsed on the street.",
+    "label": "Medical"
+  },
+  {
+    "text": "There's a suspicious person looking into houses.",
+    "label": "Crime"
+  },
+  {
+    "text": "There's a suspicious person looking into houses.",
+    "label": "Crime"
+  },
+  {
+    "text": "I just saw a hit and run.",
+    "label": "Traffic"
+  },
+  {
+    "text": "The kitchen caught on fire, smoke is everywhere.",
+    "label": "Fire"
+  },
+  {
+    "text": "My father is having a heart attack, he's not breathing!",
+    "label": "Medical"
+  },
+  {
+    "text": "I just saw a hit and run.",
+    "label": "Traffic"
+  },
+  {
+    "text": "There's a suspicious person looking into houses.",
+    "label": "Crime"
+  },
+  {
+    "text": "Two cars just crashed on the highway intersection, looks bad.",
+    "label": "Traffic"
+  },
+  {
+    "text": "There's a suspicious person looking into houses.",
+    "label": "Crime"
+  },
+  {
+    "text": "I need an ambulance, my wife is going into labor.",
+    "label": "Medical"
+  },
+  {
+    "text": "I need an ambulance, my wife is going into labor.",
+    "label": "Medical"
+  },
+  {
+    "text": "There is a massive fire in the building next door!",
+    "label": "Fire"
+  },
+  {
+    "text": "My house was broken into while I was away.",
+    "label": "Crime"
+  },
+  {
+    "text": "My house was broken into while I was away.",
+    "label": "Crime"
+  },
+  {
+    "text": "My house was broken into while I was away.",
+    "label": "Crime"
+  },
+  {
+    "text": "There is a massive fire in the building next door!",
+    "label": "Fire"
+  },
+  {
+    "text": "My father is having a heart attack, he's not breathing!",
+    "label": "Medical"
+  },
+  {
+    "text": "I need an ambulance, my wife is going into labor.",
+    "label": "Medical"
+  },
+  {
+    "text": "My house was broken into while I was away.",
+    "label": "Crime"
+  },
+  {
+    "text": "There's a suspicious person looking into houses.",
+    "label": "Crime"
+  },
+  {
+    "text": "The kitchen caught on fire, smoke is everywhere.",
+    "label": "Fire"
+  },
+  {
+    "text": "The kitchen caught on fire, smoke is everywhere.",
+    "label": "Fire"
+  },
+  {
+    "text": "Two cars just crashed on the highway intersection, looks bad.",
+    "label": "Traffic"
+  },
+  {
+    "text": "A dumpster is on fire in the alley.",
+    "label": "Fire"
+  },
+  {
+    "text": "A dumpster is on fire in the alley.",
+    "label": "Fire"
+  },
+  {
+    "text": "There's a suspicious person looking into houses.",
+    "label": "Crime"
+  },
+  {
+    "text": "The kitchen caught on fire, smoke is everywhere.",
+    "label": "Fire"
+  },
+  {
+    "text": "My father is having a heart attack, he's not breathing!",
+    "label": "Medical"
+  },
+  {
+    "text": "Someone just robbed the convenience store with a gun.",
+    "label": "Crime"
+  },
+  {
+    "text": "Two cars just crashed on the highway intersection, looks bad.",
+    "label": "Traffic"
+  },
+  {
+    "text": "Someone just robbed the convenience store with a gun.",
+    "label": "Crime"
+  },
+  {
+    "text": "Two cars just crashed on the highway intersection, looks bad.",
+    "label": "Traffic"
+  },
+  {
+    "text": "Major pileup on Route 9, multiple cars involved.",
+    "label": "Traffic"
+  },
+  {
+    "text": "Send help, someone collapsed on the street.",
+    "label": "Medical"
+  },
+  {
+    "text": "Someone just robbed the convenience store with a gun.",
+    "label": "Crime"
+  },
+  {
+    "text": "Two cars just crashed on the highway intersection, looks bad.",
+    "label": "Traffic"
+  },
+  {
+    "text": "Two cars just crashed on the highway intersection, looks bad.",
+    "label": "Traffic"
+  },
+  {
+    "text": "I need an ambulance, my wife is going into labor.",
+    "label": "Medical"
+  },
+  {
+    "text": "Someone just robbed the convenience store with a gun.",
+    "label": "Crime"
+  },
+  {
+    "text": "My father is having a heart attack, he's not breathing!",
+    "label": "Medical"
+  },
+  {
+    "text": "I need an ambulance, my wife is going into labor.",
+    "label": "Medical"
+  },
+  {
+    "text": "Major pileup on Route 9, multiple cars involved.",
+    "label": "Traffic"
+  },
+  {
+    "text": "The kitchen caught on fire, smoke is everywhere.",
+    "label": "Fire"
+  }
+]

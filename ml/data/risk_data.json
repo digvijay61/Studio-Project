@@ -1,0 +1,1402 @@
+[
+  {
+    "lat": 40.756820572750286,
+    "lng": -74.01943462939634,
+    "past_incidents": 86,
+    "traffic_density": 0.1389156612272662,
+    "risk_score": 55
+  },
+  {
+    "lat": 40.71180612016939,
+    "lng": -74.03249794609894,
+    "past_incidents": 10,
+    "traffic_density": 0.44826407095039045,
+    "risk_score": 27
+  },
+  {
+    "lat": 40.780023895502104,
+    "lng": -73.95683256713866,
+    "past_incidents": 79,
+    "traffic_density": 0.5331022985999422,
+    "risk_score": 66
+  },
+  {
+    "lat": 40.729697999127275,
+    "lng": -74.02453946892153,
+    "past_incidents": 37,
+    "traffic_density": 0.8154501949410173,
+    "risk_score": 52
+  },
+  {
+    "lat": 40.75350601214129,
+    "lng": -73.98966762411575,
+    "past_incidents": 31,
+    "traffic_density": 0.533043184982475,
+    "risk_score": 34
+  },
+  {
+    "lat": 40.78937696678702,
+    "lng": -73.99132528529776,
+    "past_incidents": 42,
+    "traffic_density": 0.2810350659381079,
+    "risk_score": 30
+  },
+  {
+    "lat": 40.73271493446233,
+    "lng": -73.96820273291493,
+    "past_incidents": 6,
+    "traffic_density": 0.3275624630834213,
+    "risk_score": 15
+  },
+  {
+    "lat": 40.75668561958474,
+    "lng": -73.99326586675872,
+    "past_incidents": 30,
+    "traffic_density": 0.9870075643381873,
+    "risk_score": 68
+  },
+  {
+    "lat": 40.753873114591094,
+    "lng": -73.96946150646434,
+    "past_incidents": 83,
+    "traffic_density": 0.7906870582312133,
+    "risk_score": 71
+  },
+  {
+    "lat": 40.78035596326384,
+    "lng": -74.02218447057272,
+    "past_incidents": 99,
+    "traffic_density": 0.6221387743993192,
+    "risk_score": 80
+  },
+  {
+    "lat": 40.7785251178582,
+    "lng": -73.94768801318095,
+    "past_incidents": 49,
+    "traffic_density": 0.3375171167767077,
+    "risk_score": 48
+  },
+  {
+    "lat": 40.704543012652756,
+    "lng": -73.95815968517398,
+    "past_incidents": 26,
+    "traffic_density": 0.7129832444074591,
+    "risk_score": 41
+  },
+  {
+    "lat": 40.724609461379764,
+    "lng": -73.98375256308931,
+    "past_incidents": 66,
+    "traffic_density": 0.2881542924939262,
+    "risk_score": 49
+  },
+  {
+    "lat": 40.716356683772965,
+    "lng": -73.92802613074085,
+    "past_incidents": 97,
+    "traffic_density": 0.525182466937454,
+    "risk_score": 78
+  },
+  {
+    "lat": 40.77412537457457,
+    "lng": -74.00467290230641,
+    "past_incidents": 64,
+    "traffic_density": 0.591990540204632,
+    "risk_score": 60
+  },
+  {
+    "lat": 40.74580815435327,
+    "lng": -74.02000444680442,
+    "past_incidents": 27,
+    "traffic_density": 0.40039221384852075,
+    "risk_score": 24
+  },
+  {
+    "lat": 40.74753617518006,
+    "lng": -74.0117735616206,
+    "past_incidents": 69,
+    "traffic_density": 0.5221741135459215,
+    "risk_score": 59
+  },
+  {
+    "lat": 40.767282360857564,
+    "lng": -73.99909024959457,
+    "past_incidents": 32,
+    "traffic_density": 0.6292267710503942,
+    "risk_score": 45
+  },
+  {
+    "lat": 40.75644369134535,
+    "lng": -73.99653644160853,
+    "past_incidents": 81,
+    "traffic_density": 0.9327802000535453,
+    "risk_score": 95
+  },
+  {
+    "lat": 40.70656436336233,
+    "lng": -74.02806818811413,
+    "past_incidents": 10,
+    "traffic_density": 0.823240998714089,
+    "risk_score": 39
+  },
+  {
+    "lat": 40.782361876517875,
+    "lng": -73.97743086816251,
+    "past_incidents": 86,
+    "traffic_density": 0.17255125129447652,
+    "risk_score": 41
+  },
+  {
+    "lat": 40.7110699383568,
+    "lng": -73.91062635570997,
+    "past_incidents": 3,
+    "traffic_density": 0.5059387319581606,
+    "risk_score": 22
+  },
+  {
+    "lat": 40.781619793479365,
+    "lng": -73.90840324638454,
+    "past_incidents": 83,
+    "traffic_density": 0.22811612955419666,
+    "risk_score": 57
+  },
+  {
+    "lat": 40.78059731442203,
+    "lng": -74.00409674688953,
+    "past_incidents": 40,
+    "traffic_density": 0.6095051534135852,
+    "risk_score": 52
+  },
+  {
+    "lat": 40.73539238543476,
+    "lng": -74.02581343132455,
+    "past_incidents": 4,
+    "traffic_density": 0.6158743361715278,
+    "risk_score": 39
+  },
+  {
+    "lat": 40.782891610540695,
+    "lng": -74.01339497248979,
+    "past_incidents": 20,
+    "traffic_density": 0.9892217648671259,
+    "risk_score": 59
+  },
+  {
+    "lat": 40.71216578767691,
+    "lng": -74.04426630664074,
+    "past_incidents": 79,
+    "traffic_density": 0.4314127165277175,
+    "risk_score": 60
+  },
+  {
+    "lat": 40.70990018576596,
+    "lng": -73.91630614052669,
+    "past_incidents": 27,
+    "traffic_density": 0.9992187700608782,
+    "risk_score": 59
+  },
+  {
+    "lat": 40.7278605584095,
+    "lng": -74.02416597705367,
+    "past_incidents": 62,
+    "traffic_density": 0.6874864008448506,
+    "risk_score": 68
+  },
+  {
+    "lat": 40.76493808335368,
+    "lng": -73.90894515555449,
+    "past_incidents": 52,
+    "traffic_density": 0.6771748921558223,
+    "risk_score": 54
+  },
+  {
+    "lat": 40.71767797056101,
+    "lng": -73.9103910222931,
+    "past_incidents": 25,
+    "traffic_density": 0.46326782766088814,
+    "risk_score": 36
+  },
+  {
+    "lat": 40.771805603385594,
+    "lng": -73.90091940221009,
+    "past_incidents": 98,
+    "traffic_density": 0.4461049196795348,
+    "risk_score": 63
+  },
+  {
+    "lat": 40.77046828970963,
+    "lng": -73.92327395663061,
+    "past_incidents": 56,
+    "traffic_density": 0.9659412828914049,
+    "risk_score": 69
+  },
+  {
+    "lat": 40.73880791886885,
+    "lng": -73.95674769197468,
+    "past_incidents": 29,
+    "traffic_density": 0.4930713307111243,
+    "risk_score": 34
+  },
+  {
+    "lat": 40.754024700800386,
+    "lng": -73.9643702294476,
+    "past_incidents": 64,
+    "traffic_density": 0.6902088621569019,
+    "risk_score": 62
+  },
+  {
+    "lat": 40.7075270840928,
+    "lng": -73.91765066768255,
+    "past_incidents": 87,
+    "traffic_density": 0.5143949042258626,
+    "risk_score": 73
+  },
+  {
+    "lat": 40.709806950138315,
+    "lng": -73.91078562451794,
+    "past_incidents": 42,
+    "traffic_density": 0.3224862761277701,
+    "risk_score": 36
+  },
+  {
+    "lat": 40.784379430488684,
+    "lng": -73.9680988706473,
+    "past_incidents": 90,
+    "traffic_density": 0.82623041792143,
+    "risk_score": 88
+  },
+  {
+    "lat": 40.732452171006216,
+    "lng": -73.97212679466462,
+    "past_incidents": 53,
+    "traffic_density": 0.24831380180254709,
+    "risk_score": 31
+  },
+  {
+    "lat": 40.78047329204328,
+    "lng": -74.02641423472002,
+    "past_incidents": 2,
+    "traffic_density": 0.8208082849280901,
+    "risk_score": 48
+  },
+  {
+    "lat": 40.75142382297908,
+    "lng": -74.03456784276449,
+    "past_incidents": 11,
+    "traffic_density": 0.41631911547726774,
+    "risk_score": 21
+  },
+  {
+    "lat": 40.72372312575764,
+    "lng": -74.02688442588452,
+    "past_incidents": 16,
+    "traffic_density": 0.5885127281278527,
+    "risk_score": 42
+  },
+  {
+    "lat": 40.786346336674626,
+    "lng": -73.93206164073626,
+    "past_incidents": 30,
+    "traffic_density": 0.17049626521682243,
+    "risk_score": 24
+  },
+  {
+    "lat": 40.733360660970085,
+    "lng": -73.91957962562466,
+    "past_incidents": 43,
+    "traffic_density": 0.9597450945938298,
+    "risk_score": 72
+  },
+  {
+    "lat": 40.76312144476378,
+    "lng": -73.90684414861987,
+    "past_incidents": 91,
+    "traffic_density": 0.344604660322281,
+    "risk_score": 55
+  },
+  {
+    "lat": 40.71102919253234,
+    "lng": -73.91392322906954,
+    "past_incidents": 70,
+    "traffic_density": 0.7222819197014041,
+    "risk_score": 62
+  },
+  {
+    "lat": 40.72622881444132,
+    "lng": -73.92542380835029,
+    "past_incidents": 23,
+    "traffic_density": 0.33711767040590884,
+    "risk_score": 22
+  },
+  {
+    "lat": 40.714775004453536,
+    "lng": -73.94195782691418,
+    "past_incidents": 31,
+    "traffic_density": 0.6302014338446437,
+    "risk_score": 55
+  },
+  {
+    "lat": 40.7738375920457,
+    "lng": -74.02458325119139,
+    "past_incidents": 59,
+    "traffic_density": 0.7191157555009507,
+    "risk_score": 68
+  },
+  {
+    "lat": 40.75334132504364,
+    "lng": -73.9951613804313,
+    "past_incidents": 8,
+    "traffic_density": 0.20380748468522847,
+    "risk_score": 6
+  },
+  {
+    "lat": 40.74018901421487,
+    "lng": -73.93294668980879,
+    "past_incidents": 35,
+    "traffic_density": 0.7029232503069525,
+    "risk_score": 49
+  },
+  {
+    "lat": 40.79612787254157,
+    "lng": -73.9882061438142,
+    "past_incidents": 27,
+    "traffic_density": 0.9485436169706131,
+    "risk_score": 54
+  },
+  {
+    "lat": 40.70495521951207,
+    "lng": -73.96900675278475,
+    "past_incidents": 87,
+    "traffic_density": 0.5473901981902863,
+    "risk_score": 74
+  },
+  {
+    "lat": 40.76963901926246,
+    "lng": -73.95863261749498,
+    "past_incidents": 42,
+    "traffic_density": 0.6723946088919285,
+    "risk_score": 58
+  },
+  {
+    "lat": 40.7746256819123,
+    "lng": -74.0128388605513,
+    "past_incidents": 59,
+    "traffic_density": 0.387925839921467,
+    "risk_score": 46
+  },
+  {
+    "lat": 40.79932652982373,
+    "lng": -73.99594069753095,
+    "past_incidents": 0,
+    "traffic_density": 0.33423755188576587,
+    "risk_score": 11
+  },
+  {
+    "lat": 40.73146501198905,
+    "lng": -73.92876032266605,
+    "past_incidents": 95,
+    "traffic_density": 0.5746142463240117,
+    "risk_score": 75
+  },
+  {
+    "lat": 40.71316871838594,
+    "lng": -73.98111230154139,
+    "past_incidents": 72,
+    "traffic_density": 0.9737529664683492,
+    "risk_score": 88
+  },
+  {
+    "lat": 40.78276450842037,
+    "lng": -74.03907820295228,
+    "past_incidents": 21,
+    "traffic_density": 0.7256088376542603,
+    "risk_score": 45
+  },
+  {
+    "lat": 40.743704157337,
+    "lng": -73.95599739233882,
+    "past_incidents": 3,
+    "traffic_density": 0.7841798733886075,
+    "risk_score": 31
+  },
+  {
+    "lat": 40.74533519727496,
+    "lng": -73.98458060590971,
+    "past_incidents": 26,
+    "traffic_density": 0.8973328941693043,
+    "risk_score": 50
+  },
+  {
+    "lat": 40.70030265556983,
+    "lng": -73.94173334962922,
+    "past_incidents": 61,
+    "traffic_density": 0.8377842444145888,
+    "risk_score": 68
+  },
+  {
+    "lat": 40.77921942137982,
+    "lng": -73.98731105237516,
+    "past_incidents": 43,
+    "traffic_density": 0.19564612943886522,
+    "risk_score": 26
+  },
+  {
+    "lat": 40.75058219187849,
+    "lng": -73.93639447453762,
+    "past_incidents": 29,
+    "traffic_density": 0.29628074888300915,
+    "risk_score": 19
+  },
+  {
+    "lat": 40.73030741297104,
+    "lng": -73.99361366593283,
+    "past_incidents": 44,
+    "traffic_density": 0.19049499590382435,
+    "risk_score": 28
+  },
+  {
+    "lat": 40.708966166604384,
+    "lng": -73.9935762774615,
+    "past_incidents": 97,
+    "traffic_density": 0.6524231956974408,
+    "risk_score": 88
+  },
+  {
+    "lat": 40.79936326608168,
+    "lng": -73.92713793158163,
+    "past_incidents": 64,
+    "traffic_density": 0.5676556233424427,
+    "risk_score": 69
+  },
+  {
+    "lat": 40.74457127984113,
+    "lng": -73.9617597314402,
+    "past_incidents": 54,
+    "traffic_density": 0.44085214557805696,
+    "risk_score": 50
+  },
+  {
+    "lat": 40.750509099846596,
+    "lng": -73.94341834577509,
+    "past_incidents": 91,
+    "traffic_density": 0.6438094412983087,
+    "risk_score": 69
+  },
+  {
+    "lat": 40.727230651628915,
+    "lng": -73.9563867337758,
+    "past_incidents": 92,
+    "traffic_density": 0.8974478923037172,
+    "risk_score": 98
+  },
+  {
+    "lat": 40.77309984942251,
+    "lng": -73.9050631686424,
+    "past_incidents": 57,
+    "traffic_density": 0.20295303659536595,
+    "risk_score": 31
+  },
+  {
+    "lat": 40.716171181858996,
+    "lng": -73.938770456122,
+    "past_incidents": 35,
+    "traffic_density": 0.13148662072559378,
+    "risk_score": 27
+  },
+  {
+    "lat": 40.728985873585444,
+    "lng": -74.0271654151514,
+    "past_incidents": 16,
+    "traffic_density": 0.40919312102064787,
+    "risk_score": 32
+  },
+  {
+    "lat": 40.765578728727974,
+    "lng": -74.00667496906378,
+    "past_incidents": 76,
+    "traffic_density": 0.8714690199568398,
+    "risk_score": 82
+  },
+  {
+    "lat": 40.73893958038099,
+    "lng": -73.99821345920317,
+    "past_incidents": 61,
+    "traffic_density": 0.39886057511883943,
+    "risk_score": 59
+  },
+  {
+    "lat": 40.787697998574956,
+    "lng": -73.97748158999137,
+    "past_incidents": 99,
+    "traffic_density": 0.327694731092125,
+    "risk_score": 75
+  },
+  {
+    "lat": 40.755993291703234,
+    "lng": -73.98446283230003,
+    "past_incidents": 65,
+    "traffic_density": 0.8136311322936567,
+    "risk_score": 80
+  },
+  {
+    "lat": 40.74473711687221,
+    "lng": -73.94496653025905,
+    "past_incidents": 97,
+    "traffic_density": 0.4016972214186264,
+    "risk_score": 78
+  },
+  {
+    "lat": 40.72710471534678,
+    "lng": -74.01619082137823,
+    "past_incidents": 78,
+    "traffic_density": 0.29676665862545304,
+    "risk_score": 56
+  },
+  {
+    "lat": 40.70843530232167,
+    "lng": -73.97879347499067,
+    "past_incidents": 33,
+    "traffic_density": 0.7727976884012462,
+    "risk_score": 56
+  },
+  {
+    "lat": 40.77507010690806,
+    "lng": -73.9988502546778,
+    "past_incidents": 51,
+    "traffic_density": 0.7106373784376151,
+    "risk_score": 65
+  },
+  {
+    "lat": 40.774716259714914,
+    "lng": -73.90486906659169,
+    "past_incidents": 60,
+    "traffic_density": 0.707269968894115,
+    "risk_score": 59
+  },
+  {
+    "lat": 40.74555418315846,
+    "lng": -73.94766977976366,
+    "past_incidents": 34,
+    "traffic_density": 0.3338496566628543,
+    "risk_score": 35
+  },
+  {
+    "lat": 40.756427761681586,
+    "lng": -74.02221839615783,
+    "past_incidents": 13,
+    "traffic_density": 0.7970539436983665,
+    "risk_score": 52
+  },
+  {
+    "lat": 40.78151757072243,
+    "lng": -73.95949024309189,
+    "past_incidents": 74,
+    "traffic_density": 0.5179345529485307,
+    "risk_score": 61
+  },
+  {
+    "lat": 40.72165674503153,
+    "lng": -73.91341571976236,
+    "past_incidents": 79,
+    "traffic_density": 0.7412957050989796,
+    "risk_score": 81
+  },
+  {
+    "lat": 40.75836105969404,
+    "lng": -73.94348633867742,
+    "past_incidents": 86,
+    "traffic_density": 0.29448847330228056,
+    "risk_score": 53
+  },
+  {
+    "lat": 40.74875124696219,
+    "lng": -74.03025667518018,
+    "past_incidents": 14,
+    "traffic_density": 0.8094186012839942,
+    "risk_score": 56
+  },
+  {
+    "lat": 40.75982817603684,
+    "lng": -73.93839088032641,
+    "past_incidents": 85,
+    "traffic_density": 0.743447102486044,
+    "risk_score": 70
+  },
+  {
+    "lat": 40.73009679541559,
+    "lng": -74.00020634969194,
+    "past_incidents": 31,
+    "traffic_density": 0.30111987996734024,
+    "risk_score": 27
+  },
+  {
+    "lat": 40.72364216997266,
+    "lng": -73.96034950412201,
+    "past_incidents": 53,
+    "traffic_density": 0.6823699822276968,
+    "risk_score": 69
+  },
+  {
+    "lat": 40.73130320405071,
+    "lng": -73.97375499713984,
+    "past_incidents": 89,
+    "traffic_density": 0.7035012925749087,
+    "risk_score": 78
+  },
+  {
+    "lat": 40.785467525793585,
+    "lng": -74.02550592878576,
+    "past_incidents": 56,
+    "traffic_density": 0.7984941283004376,
+    "risk_score": 62
+  },
+  {
+    "lat": 40.78363694964071,
+    "lng": -73.95012061086449,
+    "past_incidents": 30,
+    "traffic_density": 0.78935661938076,
+    "risk_score": 56
+  },
+  {
+    "lat": 40.72110784538603,
+    "lng": -73.96614189232672,
+    "past_incidents": 62,
+    "traffic_density": 0.12362704211173611,
+    "risk_score": 39
+  },
+  {
+    "lat": 40.772988321334516,
+    "lng": -73.91994040665233,
+    "past_incidents": 54,
+    "traffic_density": 0.4368418130267181,
+    "risk_score": 47
+  },
+  {
+    "lat": 40.77528576240492,
+    "lng": -73.90653214915,
+    "past_incidents": 18,
+    "traffic_density": 0.9955497716296845,
+    "risk_score": 51
+  },
+  {
+    "lat": 40.774151875787915,
+    "lng": -74.01727643126766,
+    "past_incidents": 56,
+    "traffic_density": 0.9830960188065461,
+    "risk_score": 74
+  },
+  {
+    "lat": 40.778947954858694,
+    "lng": -73.99081334188367,
+    "past_incidents": 54,
+    "traffic_density": 0.295920179323498,
+    "risk_score": 37
+  },
+  {
+    "lat": 40.75562753354537,
+    "lng": -73.98491941818274,
+    "past_incidents": 26,
+    "traffic_density": 0.5154440887445719,
+    "risk_score": 34
+  },
+  {
+    "lat": 40.70457182147664,
+    "lng": -73.96557996698276,
+    "past_incidents": 13,
+    "traffic_density": 0.6802165555231887,
+    "risk_score": 46
+  },
+  {
+    "lat": 40.76668710323344,
+    "lng": -73.90606494986467,
+    "past_incidents": 28,
+    "traffic_density": 0.9298857575834648,
+    "risk_score": 70
+  },
+  {
+    "lat": 40.70409551725703,
+    "lng": -73.91102679283259,
+    "past_incidents": 94,
+    "traffic_density": 0.8499541509592888,
+    "risk_score": 83
+  },
+  {
+    "lat": 40.72897517183446,
+    "lng": -74.01446512439162,
+    "past_incidents": 38,
+    "traffic_density": 0.1302563039843207,
+    "risk_score": 27
+  },
+  {
+    "lat": 40.748910832346006,
+    "lng": -74.01273728372236,
+    "past_incidents": 64,
+    "traffic_density": 0.7438838425274545,
+    "risk_score": 78
+  },
+  {
+    "lat": 40.75019907554814,
+    "lng": -73.96228247573673,
+    "past_incidents": 69,
+    "traffic_density": 0.9320663948738648,
+    "risk_score": 73
+  },
+  {
+    "lat": 40.787883831089424,
+    "lng": -73.91164659896316,
+    "past_incidents": 69,
+    "traffic_density": 0.8369725528673424,
+    "risk_score": 70
+  },
+  {
+    "lat": 40.73993649284892,
+    "lng": -73.9256492687776,
+    "past_incidents": 81,
+    "traffic_density": 0.24670821795840603,
+    "risk_score": 53
+  },
+  {
+    "lat": 40.763349333350206,
+    "lng": -74.00180502723387,
+    "past_incidents": 21,
+    "traffic_density": 0.8489110881484305,
+    "risk_score": 61
+  },
+  {
+    "lat": 40.76671725164356,
+    "lng": -73.96095630901314,
+    "past_incidents": 61,
+    "traffic_density": 0.19391173267653855,
+    "risk_score": 46
+  },
+  {
+    "lat": 40.78651608917117,
+    "lng": -73.94845445817451,
+    "past_incidents": 81,
+    "traffic_density": 0.7961560948537256,
+    "risk_score": 88
+  },
+  {
+    "lat": 40.760433792646644,
+    "lng": -73.92642580960795,
+    "past_incidents": 3,
+    "traffic_density": 0.15373750906482142,
+    "risk_score": 8
+  },
+  {
+    "lat": 40.741327732662924,
+    "lng": -74.00183510117874,
+    "past_incidents": 7,
+    "traffic_density": 0.23911654485694708,
+    "risk_score": 20
+  },
+  {
+    "lat": 40.76955307326932,
+    "lng": -73.93365159889008,
+    "past_incidents": 5,
+    "traffic_density": 0.559811285128779,
+    "risk_score": 27
+  },
+  {
+    "lat": 40.76395350762871,
+    "lng": -73.96063566161577,
+    "past_incidents": 35,
+    "traffic_density": 0.26185472808844484,
+    "risk_score": 33
+  },
+  {
+    "lat": 40.72841277852294,
+    "lng": -73.93944050158801,
+    "past_incidents": 75,
+    "traffic_density": 0.6847785393506303,
+    "risk_score": 61
+  },
+  {
+    "lat": 40.72864952862758,
+    "lng": -73.99314162306548,
+    "past_incidents": 47,
+    "traffic_density": 0.4947118050815843,
+    "risk_score": 46
+  },
+  {
+    "lat": 40.74774694892469,
+    "lng": -73.9911017499202,
+    "past_incidents": 63,
+    "traffic_density": 0.7390371254022514,
+    "risk_score": 58
+  },
+  {
+    "lat": 40.71419985922856,
+    "lng": -73.90675026192042,
+    "past_incidents": 41,
+    "traffic_density": 0.23311636674415923,
+    "risk_score": 23
+  },
+  {
+    "lat": 40.746874380900984,
+    "lng": -73.98946199460731,
+    "past_incidents": 71,
+    "traffic_density": 0.5093023023984731,
+    "risk_score": 56
+  },
+  {
+    "lat": 40.73394507759031,
+    "lng": -73.95334053411929,
+    "past_incidents": 7,
+    "traffic_density": 0.6539879096582252,
+    "risk_score": 39
+  },
+  {
+    "lat": 40.73222512241952,
+    "lng": -73.9898531755015,
+    "past_incidents": 31,
+    "traffic_density": 0.636057571979705,
+    "risk_score": 44
+  },
+  {
+    "lat": 40.72719260162293,
+    "lng": -73.9828286013043,
+    "past_incidents": 39,
+    "traffic_density": 0.44159550152160987,
+    "risk_score": 50
+  },
+  {
+    "lat": 40.724773176983355,
+    "lng": -73.94201205260734,
+    "past_incidents": 92,
+    "traffic_density": 0.8991169288985988,
+    "risk_score": 94
+  },
+  {
+    "lat": 40.78861021139028,
+    "lng": -73.92966135723857,
+    "past_incidents": 99,
+    "traffic_density": 0.9921267764720175,
+    "risk_score": 100
+  },
+  {
+    "lat": 40.79827583550406,
+    "lng": -73.92049273230812,
+    "past_incidents": 17,
+    "traffic_density": 0.3896811861488214,
+    "risk_score": 35
+  },
+  {
+    "lat": 40.77123117301207,
+    "lng": -73.91198419439364,
+    "past_incidents": 30,
+    "traffic_density": 0.5324076817180435,
+    "risk_score": 37
+  },
+  {
+    "lat": 40.74203455580974,
+    "lng": -74.00314794708041,
+    "past_incidents": 72,
+    "traffic_density": 0.9361630593101045,
+    "risk_score": 73
+  },
+  {
+    "lat": 40.73321398428445,
+    "lng": -74.00165724851644,
+    "past_incidents": 82,
+    "traffic_density": 0.13430560366843378,
+    "risk_score": 41
+  },
+  {
+    "lat": 40.70358641680124,
+    "lng": -73.95071399733115,
+    "past_incidents": 86,
+    "traffic_density": 0.24068791324444339,
+    "risk_score": 60
+  },
+  {
+    "lat": 40.76978009825544,
+    "lng": -73.9103055502802,
+    "past_incidents": 1,
+    "traffic_density": 0.2388386881771101,
+    "risk_score": 9
+  },
+  {
+    "lat": 40.71567354784474,
+    "lng": -73.9326024686509,
+    "past_incidents": 4,
+    "traffic_density": 0.6729550929752769,
+    "risk_score": 25
+  },
+  {
+    "lat": 40.707484363818125,
+    "lng": -73.98318965627269,
+    "past_incidents": 45,
+    "traffic_density": 0.9423910877424029,
+    "risk_score": 77
+  },
+  {
+    "lat": 40.72617210342817,
+    "lng": -73.94281216877766,
+    "past_incidents": 90,
+    "traffic_density": 0.8506916888534333,
+    "risk_score": 78
+  },
+  {
+    "lat": 40.75885885683447,
+    "lng": -73.93109899455716,
+    "past_incidents": 75,
+    "traffic_density": 0.8370792859135862,
+    "risk_score": 85
+  },
+  {
+    "lat": 40.73819737765652,
+    "lng": -73.90945249087267,
+    "past_incidents": 53,
+    "traffic_density": 0.12035961741849621,
+    "risk_score": 38
+  },
+  {
+    "lat": 40.70975950305391,
+    "lng": -74.04300055465511,
+    "past_incidents": 76,
+    "traffic_density": 0.772718432837952,
+    "risk_score": 67
+  },
+  {
+    "lat": 40.75262415875811,
+    "lng": -73.97999796039974,
+    "past_incidents": 26,
+    "traffic_density": 0.6160867305488572,
+    "risk_score": 48
+  },
+  {
+    "lat": 40.76765651692674,
+    "lng": -73.94821307065777,
+    "past_incidents": 21,
+    "traffic_density": 0.3689850034738249,
+    "risk_score": 22
+  },
+  {
+    "lat": 40.710225730246506,
+    "lng": -73.9641381114695,
+    "past_incidents": 53,
+    "traffic_density": 0.33578094549854487,
+    "risk_score": 52
+  },
+  {
+    "lat": 40.740831045646104,
+    "lng": -74.00323982035243,
+    "past_incidents": 14,
+    "traffic_density": 0.6523018905087095,
+    "risk_score": 39
+  },
+  {
+    "lat": 40.71354417726011,
+    "lng": -73.96800790697698,
+    "past_incidents": 45,
+    "traffic_density": 0.9066698558543431,
+    "risk_score": 67
+  },
+  {
+    "lat": 40.72790448533134,
+    "lng": -74.00201593240101,
+    "past_incidents": 75,
+    "traffic_density": 0.42793250928259785,
+    "risk_score": 68
+  },
+  {
+    "lat": 40.739848780804024,
+    "lng": -73.99867885543648,
+    "past_incidents": 78,
+    "traffic_density": 0.14248498129985673,
+    "risk_score": 50
+  },
+  {
+    "lat": 40.760862605834056,
+    "lng": -74.0479988307195,
+    "past_incidents": 43,
+    "traffic_density": 0.9150368316841027,
+    "risk_score": 58
+  },
+  {
+    "lat": 40.771688300652485,
+    "lng": -74.03956319355446,
+    "past_incidents": 91,
+    "traffic_density": 0.12273272205745897,
+    "risk_score": 44
+  },
+  {
+    "lat": 40.766014180013975,
+    "lng": -73.97742437595313,
+    "past_incidents": 24,
+    "traffic_density": 0.707091736066137,
+    "risk_score": 49
+  },
+  {
+    "lat": 40.79544833966462,
+    "lng": -73.90387602341293,
+    "past_incidents": 54,
+    "traffic_density": 0.6344278906964346,
+    "risk_score": 66
+  },
+  {
+    "lat": 40.70852153684667,
+    "lng": -73.96979835717575,
+    "past_incidents": 22,
+    "traffic_density": 0.8352559449586736,
+    "risk_score": 56
+  },
+  {
+    "lat": 40.70694178223629,
+    "lng": -74.02707125636285,
+    "past_incidents": 47,
+    "traffic_density": 0.730489477490208,
+    "risk_score": 59
+  },
+  {
+    "lat": 40.780582882473816,
+    "lng": -73.93720668011775,
+    "past_incidents": 1,
+    "traffic_density": 0.2418454985615032,
+    "risk_score": 5
+  },
+  {
+    "lat": 40.716696416735886,
+    "lng": -73.96388151676976,
+    "past_incidents": 62,
+    "traffic_density": 0.5662123596595262,
+    "risk_score": 68
+  },
+  {
+    "lat": 40.72474788667354,
+    "lng": -74.04482451327115,
+    "past_incidents": 43,
+    "traffic_density": 0.7697842898596668,
+    "risk_score": 53
+  },
+  {
+    "lat": 40.74009026522737,
+    "lng": -73.97337401777503,
+    "past_incidents": 93,
+    "traffic_density": 0.2855517654995323,
+    "risk_score": 59
+  },
+  {
+    "lat": 40.72170447858333,
+    "lng": -73.90738211084819,
+    "past_incidents": 40,
+    "traffic_density": 0.9267418372159005,
+    "risk_score": 66
+  },
+  {
+    "lat": 40.71535236297378,
+    "lng": -74.0262018847425,
+    "past_incidents": 62,
+    "traffic_density": 0.19597759532324677,
+    "risk_score": 32
+  },
+  {
+    "lat": 40.70301658142269,
+    "lng": -74.04712917751813,
+    "past_incidents": 39,
+    "traffic_density": 0.8289333886557079,
+    "risk_score": 67
+  },
+  {
+    "lat": 40.77951835451753,
+    "lng": -73.94969808957147,
+    "past_incidents": 76,
+    "traffic_density": 0.40263365001357565,
+    "risk_score": 51
+  },
+  {
+    "lat": 40.71342530267176,
+    "lng": -73.99366781995352,
+    "past_incidents": 91,
+    "traffic_density": 0.8283025859356208,
+    "risk_score": 76
+  },
+  {
+    "lat": 40.757290480844446,
+    "lng": -73.98396697952954,
+    "past_incidents": 72,
+    "traffic_density": 0.5827916451792271,
+    "risk_score": 71
+  },
+  {
+    "lat": 40.764287565464414,
+    "lng": -73.91509645721887,
+    "past_incidents": 50,
+    "traffic_density": 0.9623546335224966,
+    "risk_score": 64
+  },
+  {
+    "lat": 40.70214058626353,
+    "lng": -73.99533590215712,
+    "past_incidents": 33,
+    "traffic_density": 0.3657094074366958,
+    "risk_score": 42
+  },
+  {
+    "lat": 40.75121044755293,
+    "lng": -74.01639647681908,
+    "past_incidents": 15,
+    "traffic_density": 0.5683858073925693,
+    "risk_score": 42
+  },
+  {
+    "lat": 40.788320122081,
+    "lng": -73.96507936157634,
+    "past_incidents": 26,
+    "traffic_density": 0.5950657005808774,
+    "risk_score": 42
+  },
+  {
+    "lat": 40.71923984959306,
+    "lng": -73.94374426149385,
+    "past_incidents": 59,
+    "traffic_density": 0.5023720381953156,
+    "risk_score": 52
+  },
+  {
+    "lat": 40.77732932089903,
+    "lng": -74.04828654404544,
+    "past_incidents": 96,
+    "traffic_density": 0.5665922718518224,
+    "risk_score": 72
+  },
+  {
+    "lat": 40.772131434784534,
+    "lng": -73.92552479937008,
+    "past_incidents": 74,
+    "traffic_density": 0.1608527138511352,
+    "risk_score": 54
+  },
+  {
+    "lat": 40.740851652491834,
+    "lng": -73.97149741525676,
+    "past_incidents": 14,
+    "traffic_density": 0.35835930142830985,
+    "risk_score": 33
+  },
+  {
+    "lat": 40.79695867114584,
+    "lng": -74.03887079533003,
+    "past_incidents": 97,
+    "traffic_density": 0.666296451827329,
+    "risk_score": 76
+  },
+  {
+    "lat": 40.7160209896576,
+    "lng": -73.95235409626208,
+    "past_incidents": 67,
+    "traffic_density": 0.24933670078423506,
+    "risk_score": 44
+  },
+  {
+    "lat": 40.763858430735986,
+    "lng": -73.97595785428877,
+    "past_incidents": 1,
+    "traffic_density": 0.3755879582081375,
+    "risk_score": 25
+  },
+  {
+    "lat": 40.73937838330329,
+    "lng": -73.97396454639207,
+    "past_incidents": 34,
+    "traffic_density": 0.41242857398082133,
+    "risk_score": 29
+  },
+  {
+    "lat": 40.774230964751865,
+    "lng": -74.04295444139508,
+    "past_incidents": 49,
+    "traffic_density": 0.8886659315238123,
+    "risk_score": 74
+  },
+  {
+    "lat": 40.79567973433745,
+    "lng": -73.92825088144019,
+    "past_incidents": 16,
+    "traffic_density": 0.851920302434986,
+    "risk_score": 48
+  },
+  {
+    "lat": 40.76724598336459,
+    "lng": -73.91845917719584,
+    "past_incidents": 36,
+    "traffic_density": 0.14553810574131948,
+    "risk_score": 34
+  },
+  {
+    "lat": 40.720310293465324,
+    "lng": -74.03265579706034,
+    "past_incidents": 12,
+    "traffic_density": 0.568503350349811,
+    "risk_score": 36
+  },
+  {
+    "lat": 40.71476586168751,
+    "lng": -73.91688155636717,
+    "past_incidents": 13,
+    "traffic_density": 0.9260943025994509,
+    "risk_score": 49
+  },
+  {
+    "lat": 40.77188299292014,
+    "lng": -73.9624118650221,
+    "past_incidents": 14,
+    "traffic_density": 0.21558062747914952,
+    "risk_score": 8
+  },
+  {
+    "lat": 40.727964756775776,
+    "lng": -73.97535028525168,
+    "past_incidents": 78,
+    "traffic_density": 0.2880326803851738,
+    "risk_score": 48
+  },
+  {
+    "lat": 40.72217653653975,
+    "lng": -73.99040254235315,
+    "past_incidents": 98,
+    "traffic_density": 0.553362801340141,
+    "risk_score": 83
+  },
+  {
+    "lat": 40.7203936369606,
+    "lng": -73.93179507408027,
+    "past_incidents": 89,
+    "traffic_density": 0.8996942690077919,
+    "risk_score": 86
+  },
+  {
+    "lat": 40.7944740819469,
+    "lng": -74.0431533937938,
+    "past_incidents": 82,
+    "traffic_density": 0.3653300619583486,
+    "risk_score": 60
+  },
+  {
+    "lat": 40.73229003122238,
+    "lng": -73.92162259031657,
+    "past_incidents": 18,
+    "traffic_density": 0.2515859783849537,
+    "risk_score": 29
+  },
+  {
+    "lat": 40.7691938947343,
+    "lng": -73.92239879519035,
+    "past_incidents": 2,
+    "traffic_density": 0.5357140818869934,
+    "risk_score": 35
+  },
+  {
+    "lat": 40.76048407410131,
+    "lng": -74.02785997291615,
+    "past_incidents": 21,
+    "traffic_density": 0.13906411909741007,
+    "risk_score": 18
+  },
+  {
+    "lat": 40.79118498780825,
+    "lng": -74.02046474198661,
+    "past_incidents": 5,
+    "traffic_density": 0.7864320787396162,
+    "risk_score": 35
+  },
+  {
+    "lat": 40.72327044940879,
+    "lng": -73.98309483416583,
+    "past_incidents": 78,
+    "traffic_density": 0.27173705693716066,
+    "risk_score": 47
+  },
+  {
+    "lat": 40.78260755074721,
+    "lng": -73.93972660358853,
+    "past_incidents": 57,
+    "traffic_density": 0.6058527903102267,
+    "risk_score": 63
+  },
+  {
+    "lat": 40.7166390986002,
+    "lng": -73.94415841864878,
+    "past_incidents": 23,
+    "traffic_density": 0.9229481863899026,
+    "risk_score": 59
+  },
+  {
+    "lat": 40.70379045878523,
+    "lng": -73.99105210016036,
+    "past_incidents": 63,
+    "traffic_density": 0.3583097642170159,
+    "risk_score": 53
+  },
+  {
+    "lat": 40.7584599066141,
+    "lng": -73.94422580952624,
+    "past_incidents": 38,
+    "traffic_density": 0.2698031632424649,
+    "risk_score": 36
+  },
+  {
+    "lat": 40.71100123928596,
+    "lng": -74.02315735015506,
+    "past_incidents": 17,
+    "traffic_density": 0.7731711491150554,
+    "risk_score": 37
+  },
+  {
+    "lat": 40.7433754920659,
+    "lng": -73.97296713549888,
+    "past_incidents": 13,
+    "traffic_density": 0.24279746263253313,
+    "risk_score": 24
+  },
+  {
+    "lat": 40.73275339707694,
+    "lng": -74.00410150648219,
+    "past_incidents": 47,
+    "traffic_density": 0.7889725749798199,
+    "risk_score": 57
+  },
+  {
+    "lat": 40.785953912695014,
+    "lng": -73.98221738152279,
+    "past_incidents": 49,
+    "traffic_density": 0.22561507332304973,
+    "risk_score": 30
+  },
+  {
+    "lat": 40.719949568535675,
+    "lng": -73.90453405531603,
+    "past_incidents": 77,
+    "traffic_density": 0.9882789600411851,
+    "risk_score": 91
+  },
+  {
+    "lat": 40.717074973148435,
+    "lng": -73.9890505864209,
+    "past_incidents": 88,
+    "traffic_density": 0.3683154038150368,
+    "risk_score": 68
+  },
+  {
+    "lat": 40.733956452481685,
+    "lng": -73.93717126123873,
+    "past_incidents": 15,
+    "traffic_density": 0.667152861541905,
+    "risk_score": 46
+  },
+  {
+    "lat": 40.79198392823636,
+    "lng": -74.02319630067247,
+    "past_incidents": 49,
+    "traffic_density": 0.5060019339975962,
+    "risk_score": 52
+  },
+  {
+    "lat": 40.77978277536381,
+    "lng": -73.98211057293038,
+    "past_incidents": 38,
+    "traffic_density": 0.1675341340883436,
+    "risk_score": 36
+  }
+]
